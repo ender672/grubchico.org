@@ -1,0 +1,371 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 1em/1.625 Georgia, serif;
+  color: #222;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+.cf {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h2, h3 {
+  color: #305508;
+}
+
+a:hover {
+  border-bottom: 0px;
+}
+
+.content {
+  background: none;
+  width: 92%;
+  margin: 0 auto;
+  max-width: 1020px;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+/* banner and nav bar */
+
+.banner {
+  border-top: 10px solid #64920C;
+  background-color: #77a70c;
+}
+
+.banner img {
+  float: left;
+  margin: 0;
+}
+
+.nav {
+  padding: 13px 0;
+  float: left;
+}
+
+.nav a {
+  float: left;
+  background: #49A7F3;
+  padding: 10px 21px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+  color: #FFF;
+  margin: 10px 0 0 5px;
+}
+
+.nav a:hover, .nav a.cur {
+  background: #87cefa;
+}
+
+.nav a.cur {
+  color: #EEE;
+  text-decoration: none;
+}
+
+/* main content */
+
+.main {
+  overflow: hidden;
+  clear: both;
+}
+
+.main .content {
+  margin-top: 20px;
+}
+
+/* main column */
+
+.main_column {
+  float: left;
+  max-width: 525px;
+  margin-right: 20px;
+}
+
+/* side column */
+
+.side_column {
+  float: left;
+  margin-bottom: 20px;
+}
+
+/* images in the side column */
+
+.side_column img {
+  border: 1px solid #bea47f;
+  max-width: 300px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* events in side column */
+
+.note p, .note h3 {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.note p {
+  margin-bottom: 5px;
+}
+
+.note {
+  border: 2px solid #bea47f;
+  max-width: 278px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #FBFF8A;
+}
+
+.note a:hover {
+  color: #c93400;
+}
+
+.note .title {
+  font-weight: bold;
+}
+
+.note h3 {
+  color: #c93400;
+}
+
+.side_column .more_link {
+  font-weight: bold;
+}
+
+.note span.inline_h3 {
+  font-size: 1em;
+  color: #c93400;
+  font-weight: bold;
+}
+
+/* article */
+
+.article span.date {
+  color: #999;
+}
+
+.article img {
+  float: right;
+  max-width: 300px;
+  margin: 0 0 20px 20px;
+  clear: right;
+  border: 1px solid black;
+}
+
+.article a {
+  color: #CC6600;
+}
+
+.article a:hover {
+  color: #FF5500;
+}
+
+.article h2 a {
+  color: #305508;
+}
+
+.article h2 a:hover {
+  text-decoration: none;
+}
+
+/* user submission form */
+
+.user_submission {
+  border: 1px solid #bea47f;
+  background-color: #A9A674;
+  padding: 10px;
+}
+
+.user_submission .field {
+  margin-bottom: 10px;
+}
+
+.user_submission p {
+  font-size: 12px;
+}
+
+/* Garden Gazette */
+
+.garden_gaz_head img {
+  width: 280px;
+}
+
+/* expander */
+
+.expander h2:hover {
+  background-color: #FBFF8A;
+  cursor: pointer;
+}
+
+.hidden p {
+  display: none;
+}
+
+/* Nonprofit Page */
+
+.program, .resources {
+  float: left;
+  max-width: 400px;
+  margin: 0 20px 20px 0;
+}
+
+.program img {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.program h2 {
+  display: inline;
+}
+
+.resources {
+  padding: 5px;
+  border-color: #AAA;
+  background-color: #EEE;
+}
+
+.resources a {
+  display: block;
+}
+
+/* CSA Page */
+
+.csa p {
+  text-align: justify;
+}
+
+.csa h2 {
+  font-size: 1.4em;
+}
+
+.csa_note {
+  float: right;
+  text-align: center;
+  margin: 0 0 10px 10px;
+}
+
+.csa_note p {
+  text-align: center;
+  line-height: 15px;
+}
+
+.csa img {
+  margin: 20px 0 20px 20px;
+}
+
+/* CSA modal */
+
+.csa_schedule, .sample_share {
+  font-size: 0.8em;
+  display: none;
+}
+
+.csa_schedule p {
+  margin-bottom: 10px;
+}
+
+.csa_schedule .tbl_body {
+  max-height: 375px;
+  overflow: auto;
+  clear: both;
+}
+
+.ui-dialog .ui-dialog-content {
+  padding: 10px 0 0 0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  padding: 0;
+}
+
+/* CSA Sample Shares */
+
+.sample_shares td {
+  vertical-align: top;
+}
+
+.sample_shares tr, .sample_shares th, .sample_shares td {
+  padding: 0;
+  border-bottom: 0px;
+}
+
+/* CSA Schedule */
+
+.csa_schedule {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.csa_schedule .tbl {
+  clear: both;
+  float: left;
+  text-align: center;
+}
+
+.csa_schedule .tbl div {
+  float: left;
+  width: 32px;
+  min-height: 1px;
+}
+
+.csa_schedule .alt {
+  background-color: #EEE;
+}
+
+.csa_schedule .tbl .first {
+  width: 280px;
+  text-align: left;
+}
+
+.csa_schedule .header {
+  font-weight: bold;
+}
+
+/* Accordion */
+
+.ui-widget {
+  font-family: inherit;
+}
+
+#accordion {
+  clear: both;
+  margin-bottom: 1em;
+}
+
+#accordion h3 a {
+  color: #305508;
+  font-size: 1.5em;
+  font-weight: bold;
+}
