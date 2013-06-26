@@ -236,7 +236,7 @@ ul, ol {
 
 /* Nonprofit Page */
 
-.program, .resources {
+.program {
   float: left;
   max-width: 400px;
   margin: 0 20px 20px 0;
@@ -251,14 +251,8 @@ ul, ol {
   display: inline;
 }
 
-.resources {
-  padding: 5px;
-  border-color: #AAA;
-  background-color: #EEE;
-}
-
-.resources a {
-  display: block;
+.resources img {
+  margin-bottom: 90px;
 }
 
 /* CSA Page */
