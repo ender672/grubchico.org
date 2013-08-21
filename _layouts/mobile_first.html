@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.2.1/base-min.css&amp;pure/0.2.1/grids-min.css">
+        <style>
+            body {
+                color: #526066;
+                font-family: "proxima-nova",sans-serif;
+            }
+            img.main {
+                display: block;
+                margin: 0 auto;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .content {
+                max-width: 950px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            .address h1 {
+                margin: 0;
+                font-size: 4em;
+                font-weight: 500;
+                color: #000000;
+            }
+
+            .address p {
+                margin: 0;
+                font-size: 90%;
+                color: #444444;
+            }
+
+            .market {
+                background-color: #519251;
+                color: #FFFFFF;
+                border: 1px solid #DDDDDD;
+                padding: 15px 15px 0 15px;
+            }
+
+            .market h2 {
+                margin: 0;
+                font-size: 100%;
+            }
+
+            .boxes {
+                margin-top: 40px;
+            }
+
+            .boxes .box {
+                padding: 0 10px;
+            }
+
+            .boxes h3 {
+                color: #000000;
+                font-weight: 500;
+                font-family: "proxima-nova",sans-serif;
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+            }
+
+            .boxes p {
+                line-height: 1.6em;
+            }
+        </style>
+    </head>
+    <body>
+        {{ content }}
+    </body>
+</html>
