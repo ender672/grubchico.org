@@ -8,13 +8,19 @@ title: Heartseed Farm
   <div class="pure-g-r">
 
     <div class="pure-u-2-3">
-      <div class="address">
-        <h1>Heartseed Farm</h1>
-        <p>1525 Dayton Rd.</p>
-        <p>Chico, CA 95928</p>
-        <p>(530) 588-8474</p>
+      <div class="address" itemscope itemtype="http://schema.org/Organization">
+        <h1 itemprop="name">Heartseed Farm</h1>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <p itemprop="streetAddress">1525 Dayton Rd.</p>
+          <p>
+            <span itemprop="addressLocality">Chico</span>,
+            <span itemprop="addressRegion">CA</span>
+            <span itemprop="postalCode">95928</span>
+          </p>
+        </div>
+        <p itemprop="telephone">(530) 588-8474</p>
         <p>
-          <a href="mailto:heartseed@grubchico.org">heartseed@grubchico.org</a>
+          <a href="mailto:heartseed@grubchico.org" itemprop="email">heartseed@grubchico.org</a>
         </p>
       </div>
 
